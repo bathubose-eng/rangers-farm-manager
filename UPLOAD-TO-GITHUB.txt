@@ -1,0 +1,20 @@
+RANGERS FARM MANAGER — GITHUB UPLOAD GUIDE
+
+Upload the CONTENTS of this folder into the root of your GitHub repository.
+Do not upload this folder as a single nested folder and do not upload the ZIP file itself.
+
+The correct layout is:
+app/globals.css
+app/layout.tsx
+app/page.tsx
+lib/supabase.ts
+public/rangers-logo.jpg
+.env.example
+.gitignore
+next.config.mjs
+package.json
+README.md
+tsconfig.json
+
+Do not upload .env.local, passwords, or any Supabase service-role/secret key.
+Do not run an old schema.sql against the existing Supabase project.
